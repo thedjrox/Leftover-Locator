@@ -42,7 +42,7 @@ function App() {
 
   return (
     <LoadScript
-      googleMapsApiKey="AIzaSyCK63fL4RQfSgtKDfXT8U-6_jdBv4-fhXs"
+      googleMapsApiKey="API KEY"
       loadingElement={<div>Loading...</div>} // Optional: Display while loading
       onLoad={() => console.log('Script loaded')} // Confirm script load
     >
