@@ -6,7 +6,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 def fetch_google_sheet_data(sheet_name):
     # Google Sheets authentication
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-    creds = ServiceAccountCredentials.from_json_keyfile_name('C:\\Users\\thedj\\my_lambda_function\\glassy-wave-424922-c4-b9290ab4d5db.json', scope)
+    creds = ServiceAccountCredentials.from_json_keyfile_name('GOOGLE_APPLICATION_CREDENTIALS', scope)
     client = gspread.authorize(creds)
 
     # Connect to the specified Google Sheet
