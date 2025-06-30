@@ -3,7 +3,8 @@
 ## Overview
 
 Leftover Location is a web application designed to reduce food waste by connecting users with restaurants and food stores offering surplus food at discounted prices. Users can filter available "surprise bags" by cuisine, distance, and availability, view restaurants on an interactive Google Maps interface, and reserve food items directly. The app integrates real-time updates via WebSockets and a PostgreSQL database, showcasing my skills in full-stack development, API integration, and real-time web applications.
-Features
+
+## Features
 
 - Interactive Map: Displays nearby restaurants with available surprise bags using Google Maps API.
 - Real-Time Updates: Restaurants and availability are updated in real-time via WebSocket connections.
