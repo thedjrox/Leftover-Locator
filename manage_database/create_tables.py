@@ -42,7 +42,7 @@ if __name__ == "__main__":
     conn = psycopg2.connect(
         dbname="postgres",
         user="postgres",
-        password="aqua2chips",
+        password= password,
         host="localhost",
         port="5432"
     )
