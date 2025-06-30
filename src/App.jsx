@@ -22,7 +22,7 @@ const MAP_ID = "1577d9d10269ddf4";
 
 function App() {
   const { isLoaded, loadError } = useJsApiLoader({
-    googleMapsApiKey: "AIzaSyCK63fL4RQfSgtKDfXT8U-6_jdBv4-fhXs",
+    googleMapsApiKey: "YOUR_GOOGLE_MAPS_API_KEY",
     libraries: LIBRARIES,
   });
 
