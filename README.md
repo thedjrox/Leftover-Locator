@@ -11,7 +11,7 @@ Features
 - Reservations: Users can reserve surprise bags with a simple form, updating the database instantly.
 - Geolocation: Uses browser geolocation to center the map, falling back to default coordinates if needed.
 
-# Technologies Used
+## Technologies Used
 
 - Frontend: React, @react-google-maps/api, Socket.IO-client, CSS
 - Backend: Node.js, Express, Socket.IO, PostgreSQL (pg), Axios
@@ -19,23 +19,23 @@ Features
 - External APIs: Google Maps JavaScript API, Google Geocoding API
 - Other: WebSocket for real-time updates, Google Sheets webhook integration
 
-# Prerequisites
+## Prerequisites
 
 - Node.js (v16 or higher)
 - Python (3.8 or higher)
 - PostgreSQL (v12 or higher)
 - Google Maps API key (for Maps JavaScript API and Geocoding API)
 
-# Execution command
+## Execution command
 
 - npm run dev (to run the frontend)
 - node server.js (to run the backend)
 
-# Access the App:
+## Access the App:
 
 Open http://localhost:3000 in your browser (or the port configured by your React setup).
 
-# Usage
+## Usage
 
 - Browse Restaurants: View restaurants with available surprise bags on the map.
 - Apply Filters: Use the filter panel to select cuisine types, minimum number of surprise bags, and maximum distance.
