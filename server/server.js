@@ -32,7 +32,7 @@ const pool = new Pool({
 const geocodeAddress = async (address) => {
   try {
     console.log('Geocoding address:', address);
-    const apiKey = 'AIzaSyCK63fL4RQfSgtKDfXT8U-6_jdBv4-fhXs';
+    const apiKey = 'YOUR_GOOGLE_MAPS_API_KEY';
     const response = await axios.get(`https://maps.googleapis.com/maps/api/geocode/json`, {
       params: { address, key: apiKey },
     });
